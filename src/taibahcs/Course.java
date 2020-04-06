@@ -1,4 +1,4 @@
-package taibahCS;
+package taibahcs;
 
 public class Course {
 
@@ -41,21 +41,22 @@ public class Course {
         this.creditHours = creditHours;
     }
 
-    public boolean isIsSigned() {
+
+    public boolean isSigned() {
         return isSigned;
     }
 
-    public void setIsSigned(boolean isSigned) {
-        this.isSigned = isSigned;
+    public void setSigned(boolean signed) {
+        isSigned = signed;
     }
 
-    
-    public  String toString(){
-      
+    public String toString() {
+
         return
-                
-       "\nCourseCode : "+this.courseCode +"\nCourseName : "+this.courseName+
-           "\nCreditHours : "+this.creditHours+"\n";
-                
+
+                "\nCourseCode : " + this.courseCode + "\nCourseName : " + this.courseName +
+                        "\nCreditHours : " + this.creditHours + "\n";
+
     }
+
 }

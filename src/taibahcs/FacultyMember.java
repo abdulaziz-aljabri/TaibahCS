@@ -1,8 +1,8 @@
-package taibahCS;
+package taibahcs;
 
 public class FacultyMember {
 
-    protected int FacultyID;
+    protected int facultyId;
     protected String academicRank;
     protected String academicSpecialization;
     protected String firstName;
@@ -12,9 +12,9 @@ public class FacultyMember {
 
     }
 
-    public FacultyMember(int FacultyID, String firstName, String lastName, String academicRank, String academicSpecialization) {
+    public FacultyMember(int facultyId, String firstName, String lastName, String academicRank, String academicSpecialization) {
 
-        this.FacultyID = FacultyID;
+        this.facultyId = facultyId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.academicRank = academicRank;
@@ -22,8 +22,8 @@ public class FacultyMember {
 
     }
 
-    public void setFacultyID(int FacultyID) {
-        this.FacultyID = FacultyID;
+    public void setFacultyId(int facultyId) {
+        this.facultyId = facultyId;
     }
 
     public void setAcademicRank(String academicRank) {
@@ -42,8 +42,8 @@ public class FacultyMember {
         this.lastName = lastName;
     }
 
-    public int getFacultyID() {
-        return FacultyID;
+    public int getFacultyId() {
+        return facultyId;
     }
 
     public String getAcademicRank() {
@@ -70,7 +70,7 @@ public class FacultyMember {
       
         return
                 
-       "\nFacultyID : "+this.FacultyID +"\nFirstName : "+this.firstName+
+       "\nFacultyID : "+this.facultyId +"\nFirstName : "+this.firstName+
            "\nLastName : "+this.lastName+"\nAcademicRank : "+this.academicRank+
                 "\nAcademicSpecialization : "+this.academicSpecialization+"\n";
                 
