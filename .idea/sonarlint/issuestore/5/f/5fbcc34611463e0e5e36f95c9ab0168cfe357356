@@ -1,0 +1,156 @@
+
+‘
+java:S1319ç"uThe type of the "courseList" object should be an interface such as "List" rather than the implementation "ArrayList".(ğÇ‘Øıÿÿÿÿ
+Œ
+java:S1319ô"uThe type of the "courseList" object should be an interface such as "List" rather than the implementation "ArrayList".(ÛÄİ«
+Œ
+java:S1319Œ"uThe type of the "courseList" object should be an interface such as "List" rather than the implementation "ArrayList".(¬š¶ˆ
+Œ
+java:S1319Ÿ"uThe type of the "courseList" object should be an interface such as "List" rather than the implementation "ArrayList".(ÓÇ«Ü
+‘
+java:S1319²"uThe type of the "courseList" object should be an interface such as "List" rather than the implementation "ArrayList".( ™Ê—úÿÿÿÿ
+
+java:S1319Ã"rThe type of the "TAsList" object should be an interface such as "List" rather than the implementation "ArrayList".(èÁ¡÷şÿÿÿÿ
+
+java:S1319Ã"sThe type of the "lecturer" object should be an interface such as "List" rather than the implementation "ArrayList".(èÁ¡÷şÿÿÿÿ
+‘
+java:S1319Ã"uThe type of the "courseList" object should be an interface such as "List" rather than the implementation "ArrayList".(èÁ¡÷şÿÿÿÿ
+‰
+java:S1319Ú"rThe type of the "TAsList" object should be an interface such as "List" rather than the implementation "ArrayList".(¿îõÉ
+
+java:S1319ì"wThe type of the "lecturerList" object should be an interface such as "List" rather than the implementation "ArrayList".(›ÿ£†
+‘
+java:S1319ş"uThe type of the "courseList" object should be an interface such as "List" rather than the implementation "ArrayList".(Ë¨ùÿÿÿÿ
+ˆ
+java:S1319"rThe type of the "TAsList" object should be an interface such as "List" rather than the implementation "ArrayList".(İ±Ò
+‰
+java:S1319"sThe type of the "lecturer" object should be an interface such as "List" rather than the implementation "ArrayList".(İ±Ò
+‡
+java:S1319"qThe type of the "course" object should be an interface such as "List" rather than the implementation "ArrayList".(İ±Ò
+ˆ
+java:S1319’"qThe type of the "course" object should be an interface such as "List" rather than the implementation "ArrayList".(¼Ôœ‹
+‘
+java:S1319¥"uThe type of the "courseList" object should be an interface such as "List" rather than the implementation "ArrayList".(’•¨¸ùÿÿÿÿ
+w
+java:S1192j"aDefine a constant instead of duplicating this literal "Faculty ID --- Faculty Full Name" 4 times.(ù•ñó
+œ
+java:S1192d"€Define a constant instead of duplicating this literal "taibahCS.Course Code --- taibahCS.Course Name  --- Credit Hours" 5 times.(±Êïıúÿÿÿÿ
+
+java:S1192c"yDefine a constant instead of duplicating this literal "These are the courses list you have added in the system." 4 times.(ğ§¶Û
+o
+java:S1192h"YDefine a constant instead of duplicating this literal "Enter the course code : " 4 times.(ıÖˆ
+a	java:S112ß"FDefine and throw a dedicated exception instead of using a generic one.(³»æ­ÿÿÿÿÿ
+\	java:S112İ"FDefine and throw a dedicated exception instead of using a generic one.(¬ ˜
+\	java:S112ï"FDefine and throw a dedicated exception instead of using a generic one.(¨†™†
+a	java:S112ç"FDefine and throw a dedicated exception instead of using a generic one.(ğÇ‘Øıÿÿÿÿ
+\	java:S112ü"FDefine and throw a dedicated exception instead of using a generic one.(¨†™†
+\	java:S112ô"FDefine and throw a dedicated exception instead of using a generic one.(ÛÄİ«
+a	java:S112„"FDefine and throw a dedicated exception instead of using a generic one.(³»æ­ÿÿÿÿÿ
+a	java:S112‚"FDefine and throw a dedicated exception instead of using a generic one.(áÑ‰Æùÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔéçÙ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜Úˆ°
+g	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬š¶ˆ
+l	java:S117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÁ¡÷şÿÿÿÿ
+g	java:S117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿îõÉ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ±Ò
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„á‹«
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 54 to the 15 allowed.(Çµí‘
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÔéçÙ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñ’å±ùÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(…¢‘²ûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¢ı÷´
+N	java:S106"9Replace this use of System.out or System.err by a logger.(›‹›
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(ÙÖ”›şÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ı©ã×ùÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(é‰¥øÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(ä†¿¡şÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(—Î•£ùÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(º¬Öşûÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(É½“
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(‚³Âçúÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(ğİ“ºøÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(´±ïªüÿÿÿÿ
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(¯ıÄøÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(µë˜®úÿÿÿÿ
+M	java:S106@"9Replace this use of System.out or System.err by a logger.(ûßİd
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(«Ä·ùÿÿÿÿ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(É½“
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(ıÚÇúÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(šÎÂşÿÿÿÿ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(Ò‚‡
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(ÇŒ’ä
+S	java:S106S"9Replace this use of System.out or System.err by a logger.(Ø¨Âışÿÿÿÿ
+S	java:S106W"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(•‹Ïıùÿÿÿÿ
+N	java:S106Y"9Replace this use of System.out or System.err by a logger.(«ª‡ö
+S	java:S106\"9Replace this use of System.out or System.err by a logger.(ñ™Íıÿÿÿÿ
+M	java:S106]"9Replace this use of System.out or System.err by a logger.(²¾ÚG
+7	java:S131a""Add a default case to this switch.(Ô‘í
+N	java:S106c"9Replace this use of System.out or System.err by a logger.(ğ§¶Û
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(±Êïıúÿÿÿÿ
+N	java:S106f"9Replace this use of System.out or System.err by a logger.(°¶¶İ
+N	java:S106h"9Replace this use of System.out or System.err by a logger.(ıÖˆ
+N	java:S106j"9Replace this use of System.out or System.err by a logger.(ù•ñó
+N	java:S106l"9Replace this use of System.out or System.err by a logger.(şéª
+S	java:S106n"9Replace this use of System.out or System.err by a logger.(Í±»§ûÿÿÿÿ
+N	java:S106s"9Replace this use of System.out or System.err by a logger.(²Æöş
+S	java:S106v"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+N	java:S106{"9Replace this use of System.out or System.err by a logger.(ğ§¶Û
+S	java:S106|"9Replace this use of System.out or System.err by a logger.(±Êïıúÿÿÿÿ
+N	java:S106~"9Replace this use of System.out or System.err by a logger.(°¶¶İ
+O	java:S106€"9Replace this use of System.out or System.err by a logger.(ıÖˆ
+O	java:S106‚"9Replace this use of System.out or System.err by a logger.(ù•ñó
+T	java:S106„"9Replace this use of System.out or System.err by a logger.(’ÄØ‚şÿÿÿÿ
+T	java:S106†"9Replace this use of System.out or System.err by a logger.(Í±»§ûÿÿÿÿ
+T	java:S106Š"9Replace this use of System.out or System.err by a logger.(Œóüšùÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+O	java:S106’"9Replace this use of System.out or System.err by a logger.(ğ§¶Û
+T	java:S106“"9Replace this use of System.out or System.err by a logger.(±Êïıúÿÿÿÿ
+O	java:S106•"9Replace this use of System.out or System.err by a logger.(°¶¶İ
+O	java:S106—"9Replace this use of System.out or System.err by a logger.(ıÖˆ
+O	java:S106™"9Replace this use of System.out or System.err by a logger.(ù•ñó
+O	java:S106›"9Replace this use of System.out or System.err by a logger.(şéª
+T	java:S106"9Replace this use of System.out or System.err by a logger.(‘åıÚüÿÿÿÿ
+T	java:S106¡"9Replace this use of System.out or System.err by a logger.(æÚĞüÿÿÿÿ
+T	java:S106¤"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+O	java:S106©"9Replace this use of System.out or System.err by a logger.(ğ§¶Û
+T	java:S106ª"9Replace this use of System.out or System.err by a logger.(±Êïıúÿÿÿÿ
+O	java:S106¬"9Replace this use of System.out or System.err by a logger.(°¶¶İ
+O	java:S106®"9Replace this use of System.out or System.err by a logger.(ıÖˆ
+O	java:S106°"9Replace this use of System.out or System.err by a logger.(ù•ñó
+T	java:S106²"9Replace this use of System.out or System.err by a logger.(’ÄØ‚şÿÿÿÿ
+T	java:S106´"9Replace this use of System.out or System.err by a logger.(‘åıÚüÿÿÿÿ
+O	java:S106¸"9Replace this use of System.out or System.err by a logger.(œñè
+T	java:S106»"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+O	java:S106Í"9Replace this use of System.out or System.err by a logger.(ùÜí¢
+O	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(›‹›
+T	java:S106×"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+N	java:S106Ø"9Replace this use of System.out or System.err by a logger.(›ÕÖ@
+O	java:S106Ù"9Replace this use of System.out or System.err by a logger.(‰‘Ù
+G
+java:S1172Œ"0Remove this unused method parameter "courseObj".(¬š¶ˆ
+]
+java:S1126—"AReplace this if-then-else statement by a single return statement.(‰ãó‰øÿÿÿÿ
+G
+java:S1172Ÿ"0Remove this unused method parameter "courseObj".(ÓÇ«Ü
+]
+java:S1126«"AReplace this if-then-else statement by a single return statement.(ÛÚÿÿÿÿÿ
+O	java:S106Æ"9Replace this use of System.out or System.err by a logger.(ÌïÌ
+O	java:S106Ë"9Replace this use of System.out or System.err by a logger.(÷æœ
+T	java:S106Ï"9Replace this use of System.out or System.err by a logger.(»àË•ÿÿÿÿÿ
+O	java:S106Ô"9Replace this use of System.out or System.err by a logger.(ˆˆıì
+T	java:S106“"9Replace this use of System.out or System.err by a logger.(–¤ÅÊûÿÿÿÿ
+T	java:S106”"9Replace this use of System.out or System.err by a logger.(±Êïıúÿÿÿÿ
+O	java:S106—"9Replace this use of System.out or System.err by a logger.(™†¹¡
+T	java:S106œ"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(îå»ë

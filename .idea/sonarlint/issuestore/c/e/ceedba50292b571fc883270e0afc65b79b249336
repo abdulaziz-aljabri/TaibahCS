@@ -1,0 +1,12 @@
+
+
+java:S1319"zThe type of the "assigendCourses" object should be an interface such as "List" rather than the implementation "ArrayList".(¦Ú{
+‹
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÚÃ°ºùÿÿÿÿ
+•
+java:S1319"zThe type of the "assigendCourses" object should be an interface such as "List" rather than the implementation "ArrayList".(à¼‡ùÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÃºÍ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„á‹«
+z	java:S116"`Rename this field "QUOTA_OF_CREDIT_HOURS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï×šÒÿÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(Ï×šÒÿÿÿÿÿ
