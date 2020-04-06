@@ -1,6 +1,7 @@
 package taibahcs;
 
 import static java.lang.System.exit;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -228,7 +229,7 @@ public class TaibahCS {
 
     }
 
-    public void dropCourseForTA(TAs facultyObject, Course course)  {
+    public void dropCourseForTA(TAs facultyObject, Course course) {
         if (facultyObject.getAssignedCourses() == null) {
             try {
                 throw new IllegalArgumentException(" This faculty member have not any assigned course yet!! ");
@@ -242,7 +243,7 @@ public class TaibahCS {
         }
     }
 
-    public void allocateCourseTA(TAs facultyObject, Course course, List courseList)  {
+    public void allocateCourseTA(TAs facultyObject, Course course, List courseList) {
 
         if (facultyObject.getAssignedCourses().size() < facultyObject.MAXIMUM_NUMBER_OF_COURSE) {
             facultyObject.getAssignedCourses().add(course.getCourseCode());
@@ -259,7 +260,7 @@ public class TaibahCS {
         }
     }
 
-    public void allocateCourseLecturer(Lecturers facultyObject, Course course, List courseList)  {
+    public void allocateCourseLecturer(Lecturers facultyObject, Course course, List courseList) {
 
         if (facultyObject.getAssignedCourses().size() < facultyObject.MAXIMUM_NUMBER_OF_COURSE) {
             facultyObject.getAssignedCourses().add(course.getCourseCode());
@@ -430,17 +431,23 @@ public class TaibahCS {
     }
 
     public void printUnallocatedCourseList(List<Course> course) {
-        System.out.println("These are the unllocated courses you have added in the system.");
-        System.out.println(COURSE_LIST_HEADER);
+        boolean isHeaderPrinted = false;
 
         if (course.isEmpty()) {
-            System.out.println(" There is no  course in the system");
+            System.out.println(" There is no course in the system");
 
         } else {
 
             for (int index = 0; index < course.size(); index++) {
                 System.out.println("");
                 if (!course.get(index).isSigned()) {
+                    if(isHeaderPrinted == false)
+                    {
+                        System.out.println("These are the unllocated courses you have added in the system.");
+                        System.out.println(COURSE_LIST_HEADER);
+                        isHeaderPrinted = true;
+                    }
+
                     System.out.println(course.get(index).getCourseCode() + " " + course.get(index).getCourseName() + " " + course.get(index).getCreditHours());
                 }
 
