@@ -5,8 +5,6 @@ import static java.lang.System.exit;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class TaibahCS {
 
@@ -28,15 +26,17 @@ public class TaibahCS {
 
         List<Course> courseList = new ArrayList<>();
         Course course = null;
+        List<Conveners> convenersList = new ArrayList<>();
+        Conveners conveners = null;
 
         System.out.println(" #### Welcom to TaibahuCS #### ");
-        System.out.println(" #### Type  1- Adding ta member.  2- Adding Lectures member.  3- Adding course.  4- Operation.   5- Exit #### ");
+        System.out.println(" #### Type  1- Adding ta member.  2- Adding Lectures member.  3- Adding course.  4- Adding conveners member. 5- Operation.   6- Exit #### ");
         int operation = in.nextInt();
         in.nextLine(); // Consuming the leftover new line, using the nextLine() method to solve the problem.
 
         System.out.println("");
 
-        while (operation != 5) {
+        while (operation != 6) {
             switch (operation) {
                 case 1:
                     System.out.println(" #### Please enter all information about ta member  #### ");
@@ -98,6 +98,26 @@ public class TaibahCS {
                     System.out.println(courseList.get(courseList.size() - 1).toString());
                     break;
                 case 4:
+                    System.out.println(" #### Please enter all information about Convener member  #### ");
+                    System.out.println("");
+                    conveners = new Conveners();
+                    System.out.print(" Enter the Convener's ID : ");
+                    conveners.setFacultyId(in.nextInt());
+                    System.out.print(" Enter the  Convener's First Name : ");
+                    conveners.setFirstName(in.next());
+                    System.out.print(" Enter the  Convener's Last Name : ");
+                    conveners.setLastName(in.next());
+                    in.nextLine(); // Consuming the leftover new line, using the nextLine() method to solve the problem.
+                    System.out.print(" Enter the  Convener's Academic Rank :");
+                    conveners.setAcademicRank(in.nextLine());
+                    System.out.print(" Enter the  Convener's Academic Specialization : ");
+                    conveners.setAcademicSpecialization(in.nextLine());
+                    convenersList.add(conveners);
+                    System.out.println("");
+                    System.out.println("The member data has been added successfully.");
+                    System.out.println(convenersList.get(convenersList.size() - 1).toString());
+                    break;
+                case 5:
                     System.out.println("Choose the operation by typing the number.");
                     System.out.println("1- Assign course to ta member. \n 2- Assign course to Lecturer member.  \n 3- Drop course from ta member. \n 4- Drop course from Lecturer member. \n 5- Display the faculty members information. \n 6- comprehensive report");
                     int supOperation = in.nextInt();
@@ -209,7 +229,7 @@ public class TaibahCS {
                     }
 
                     break;
-                case 5:
+                case 6:
                     exit(0);
                     break;
                 default:
@@ -217,7 +237,7 @@ public class TaibahCS {
                     break;
             }
 
-            System.out.println(" #### Type  1- Adding ta member.  2- Adding Lectures member.  3- Adding course.  4- Operation.   5- Exit #### ");
+            System.out.println(" #### Type  1- Adding ta member.  2- Adding Lectures member.  3- Adding course. 4- Adding conveners member. 5- Operation. 6- Exit #### ");
             operation = in.nextInt();
             in.nextLine(); // Consuming the leftover new line, using the nextLine() method to solve the problem.
 
