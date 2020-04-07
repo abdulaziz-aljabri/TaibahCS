@@ -26,6 +26,7 @@ public class TaibahCS {
 
         List<Course> courseList = new ArrayList<>();
         Course course = null;
+
         List<Conveners> convenersList = new ArrayList<>();
         Conveners conveners = null;
 
@@ -218,10 +219,10 @@ public class TaibahCS {
 
                             break;
                         case 5:
-                            taibahCSObj.printFacultyMembersDetails(tasList, lecturerList, courseList);
+                            taibahCSObj.printFacultyMembersDetails(tasList, lecturerList, courseList,convenersList);
                             break;
                         case 6:
-                            taibahCSObj.comprehensiveReport(tasList, lecturerList, courseList);
+                            taibahCSObj.comprehensiveReport(tasList, lecturerList, courseList,convenersList);
                             break;
                         default:
                             break;
@@ -371,7 +372,7 @@ public class TaibahCS {
         return "course code :" + courseCode + " ||  " + "course name :" + courseName + " ||  " + "credit hours :" + creditHours;
     }
 
-    public void printFacultyMembersDetails(List<TAs> tasList, List<Lecturers> lecturer, List<Course> courseList) {
+    public void printFacultyMembersDetails(List<TAs> tasList, List<Lecturers> lecturerList, List<Course> courseList,List<Conveners> convenersList) {
 
         for (int index = 0; index < tasList.size(); index++) {
             System.out.println("\nFacultyID : " + tasList.get(index).getFacultyId() + "\nFull Name : " + tasList.get(index).getFullName()
@@ -382,15 +383,19 @@ public class TaibahCS {
                 System.out.println(findCourseInfoByCourseCode(tasList.get(index).getAssignedCourses().get(courseIndex), courseList));
             }
         }
-        for (int index = 0; index < lecturer.size(); index++) {
-            System.out.println("\nFacultyID : " + lecturer.get(index).getFacultyId() + "\nFull Name : " + lecturer.get(index).getFullName()
-                    + "\nAcademicRank : " + lecturer.get(index).getAcademicRank()
-                    + "\nAcademicSpecialization : " + lecturer.get(index).getAcademicSpecialization() + "\n Courses:  ");
+        for (int index = 0; index < lecturerList.size(); index++) {
+            System.out.println("\nFacultyID : " + lecturerList.get(index).getFacultyId() + "\nFull Name : " + lecturerList.get(index).getFullName()
+                    + "\nAcademicRank : " + lecturerList.get(index).getAcademicRank()
+                    + "\nAcademicSpecialization : " + lecturerList.get(index).getAcademicSpecialization() + "\n Courses:  ");
 
-            for (int courseIndex = 0; courseIndex < lecturer.get(index).getAssignedCourses().size(); courseIndex++) {
-                System.out.println(findCourseInfoByCourseCode(lecturer.get(index).getAssignedCourses().get(courseIndex), courseList));
+            for (int courseIndex = 0; courseIndex < lecturerList.get(index).getAssignedCourses().size(); courseIndex++) {
+                System.out.println(findCourseInfoByCourseCode(lecturerList.get(index).getAssignedCourses().get(courseIndex), courseList));
             }
-
+        }
+        for(int index = 0 ;index<convenersList.size();index++){
+           System.out.println("\nFacultyID : " + convenersList.get(index).getFacultyId() + "\nFull Name : " + convenersList.get(index).getFullName()
+                   + "\nAcademicRank : " + convenersList.get(index).getAcademicRank()
+                   + "\nAcademicSpecialization : " + convenersList.get(index).getAcademicSpecialization());
         }
     }
 
@@ -445,8 +450,8 @@ public class TaibahCS {
         return course;
     }
 
-    public void comprehensiveReport(List<TAs> tasList, List<Lecturers> lecturer, List<Course> course) {
-        taibahCSObj.printFacultyMembersDetails(tasList, lecturer, course);
+    public void comprehensiveReport(List<TAs> tasList, List<Lecturers> lecturer, List<Course> course,List<Conveners> convenersList) {
+        taibahCSObj.printFacultyMembersDetails(tasList, lecturer, course,convenersList);
         taibahCSObj.printUnallocatedCourseList(course);
     }
 
